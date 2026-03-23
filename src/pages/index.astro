@@ -1,0 +1,622 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Armand Ilaș — AI who does AI">
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="/" class="nav-logo">AI</a>
+    <div class="nav-links">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="https://github.com/armandilas" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-pre">Hello, I'm</p>
+      <h1 class="hero-name">
+        <span class="name-first">Armand</span>
+        <span class="name-last">Ilaș</span>
+      </h1>
+      <p class="hero-tagline">
+        <span class="tagline-ai">AI</span> who does <span class="tagline-ai">AI</span>.
+      </p>
+      <p class="hero-sub">
+        MSc Data Science &amp; Artificial Intelligence · TU/e
+      </p>
+      <div class="hero-links">
+        <a href="#projects" class="hero-cta">View Projects</a>
+        <a href="mailto:armand@armandilas.com" class="hero-cta hero-cta--ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <p class="section-label">Selected Work</p>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-grid">
+        <!-- Sensei no Michi -->
+        <article class="project-card project-card--featured">
+          <div class="project-header">
+            <span class="project-tag">Full-Stack · AI · Education</span>
+            <span class="project-year">2025–2026</span>
+          </div>
+          <h3 class="project-name">先生の道 · Sensei no Michi</h3>
+          <p class="project-desc">
+            Self-hosted JLPT preparation platform with FSRS spaced repetition,
+            AI-powered conversation practice, boss fights, achievements, and a
+            full CI/CD pipeline. Built with FastAPI, React, and PostgreSQL,
+            deployed via Docker.
+          </p>
+          <div class="project-stack">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>React</span>
+            <span>PostgreSQL</span>
+            <span>Docker</span>
+            <span>FSRS</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">View Project →</a>
+            <a href="#" class="project-link project-link--ghost">Source Code</a>
+          </div>
+        </article>
+
+        <!-- Loopit -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">AI · Insurance · Co-Founder</span>
+            <span class="project-year">2024–Present</span>
+          </div>
+          <h3 class="project-name">Loopit.ai</h3>
+          <p class="project-desc">
+            Technical co-founder of an automotive insurance AI platform.
+            Building intelligent systems for risk assessment and claims
+            processing.
+          </p>
+          <div class="project-stack">
+            <span>Machine Learning</span>
+            <span>Python</span>
+            <span>Full-Stack</span>
+          </div>
+          <div class="project-links">
+            <a href="https://loopit.ai" target="_blank" rel="noopener" class="project-link">Visit →</a>
+          </div>
+        </article>
+
+        <!-- NDIR Sensor -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Research · Optics · Hardware</span>
+            <span class="project-year">2025–2026</span>
+          </div>
+          <h3 class="project-name">Miniaturized NDIR Multi-Gas Sensor</h3>
+          <p class="project-desc">
+            Research project on a miniaturized non-dispersive infrared sensor
+            for CO₂, H₂O, and CH₄ detection within a 20×15×10 mm form factor.
+            Exploring CNT-coated MEMS micro-hotplates and metamaterial emitters.
+          </p>
+          <div class="project-stack">
+            <span>IR Spectroscopy</span>
+            <span>MEMS</span>
+            <span>LaTeX</span>
+            <span>Research</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link">Read More →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <p class="section-label">Background</p>
+      <h2 class="section-title">About</h2>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm Armand Ilaș — and yes, my initials are AI. I completed a double
+            bachelor's in Computer Science and Applied Mathematics with Honors
+            in AI at TU/e, as one of eight from an initial cohort of eighty. I'm
+            now pursuing an MSc in Data Science &amp; Artificial Intelligence,
+            with a focus on AI safety, RLHF, and mechanistic interpretability.
+          </p>
+          <p>
+            I build complete systems — from mathematical foundations to deployed
+            products. I've coached over 100 students, co-founded an AI startup,
+            and I'm working toward a career at a frontier AI research
+            organization.
+          </p>
+          <p>
+            When I'm not engineering, I train BJJ, run long distances, write
+            confessional poetry in three languages, and study Japanese for an
+            upcoming exchange at Osaka University.
+          </p>
+        </div>
+        <div class="about-details">
+          <div class="detail-block">
+            <h4>Education</h4>
+            <p>MSc Data Science &amp; AI — TU/e</p>
+            <p>BSc Computer Science &amp; Engineering — TU/e</p>
+            <p>BSc Applied Mathematics (Honors AI) — TU/e</p>
+          </div>
+          <div class="detail-block">
+            <h4>Focus Areas</h4>
+            <p>AI Safety &amp; Alignment</p>
+            <p>Reinforcement Learning (RLHF)</p>
+            <p>Mechanistic Interpretability</p>
+            <p>Full-Stack ML Systems</p>
+          </div>
+          <div class="detail-block">
+            <h4>Elsewhere</h4>
+            <a href="https://github.com/armandilas" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/armandilas" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://brakomenso.wordpress.com" target="_blank" rel="noopener">Writing</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-container footer-inner">
+      <p class="footer-text">Armand Ilaș © 2026</p>
+      <p class="footer-text footer-text--dim">Built with precision, not templates.</p>
+    </div>
+  </footer>
+</Layout>
+
+<style>
+  /* Noise overlay */
+  .noise {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    background-repeat: repeat;
+    background-size: 256px 256px;
+  }
+
+  /* Navigation */
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background: rgba(8, 8, 8, 0.8);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .nav-logo {
+    font-family: var(--font-mono);
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--accent);
+    text-decoration: none;
+    letter-spacing: 0.05em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .nav-links a {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: color 0.3s ease;
+  }
+
+  .nav-links a:hover {
+    color: var(--text);
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 3rem 3rem;
+    position: relative;
+  }
+
+  .hero-content {
+    max-width: 720px;
+    animation: fadeUp 1s ease both;
+  }
+
+  .hero-pre {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-dim);
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
+  }
+
+  .hero-name {
+    font-family: var(--font-serif);
+    font-size: clamp(3.5rem, 8vw, 6.5rem);
+    font-weight: 400;
+    line-height: 1.05;
+    margin-bottom: 1.5rem;
+    color: var(--text);
+  }
+
+  .name-first {
+    display: block;
+  }
+
+  .name-last {
+    display: block;
+    color: var(--accent);
+  }
+
+  .hero-tagline {
+    font-family: var(--font-mono);
+    font-size: clamp(1rem, 2.5vw, 1.35rem);
+    font-weight: 300;
+    color: var(--text-muted);
+    letter-spacing: 0.02em;
+    margin-bottom: 0.75rem;
+  }
+
+  .tagline-ai {
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .hero-sub {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    letter-spacing: 0.03em;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-cta {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    padding: 0.75rem 1.75rem;
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    transition: all 0.3s ease;
+    border: 1px solid var(--accent);
+    color: var(--bg);
+    background: var(--accent);
+  }
+
+  .hero-cta:hover {
+    background: transparent;
+    color: var(--accent);
+  }
+
+  .hero-cta--ghost {
+    background: transparent;
+    color: var(--text-muted);
+    border-color: var(--border);
+  }
+
+  .hero-cta--ghost:hover {
+    border-color: var(--text-muted);
+    color: var(--text);
+  }
+
+  .scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .scroll-line {
+    display: block;
+    width: 1px;
+    height: 48px;
+    background: linear-gradient(to bottom, var(--accent), transparent);
+    animation: scrollPulse 2s ease-in-out infinite;
+  }
+
+  /* Sections */
+  .section-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+
+  .section-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 3rem;
+  }
+
+  /* Projects */
+  .projects {
+    padding: 8rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .project-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .project-card {
+    border: 1px solid var(--border);
+    padding: 2.5rem;
+    background: var(--bg-card);
+    transition: border-color 0.3s ease, background 0.3s ease;
+  }
+
+  .project-card:hover {
+    border-color: var(--border-hover);
+    background: var(--bg-subtle);
+  }
+
+  .project-card--featured {
+    border-color: var(--accent-dim);
+    background: linear-gradient(135deg, var(--bg-card), var(--accent-glow));
+  }
+
+  .project-card--featured:hover {
+    border-color: var(--accent);
+  }
+
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .project-tag {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--accent);
+    letter-spacing: 0.06em;
+  }
+
+  .project-year {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+  }
+
+  .project-name {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 1rem;
+  }
+
+  .project-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    max-width: 640px;
+  }
+
+  .project-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .project-stack span {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--text-dim);
+    padding: 0.3rem 0.7rem;
+    border: 1px solid var(--border);
+    letter-spacing: 0.02em;
+  }
+
+  .project-links {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  .project-link {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text);
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: color 0.3s ease;
+  }
+
+  .project-link:hover {
+    color: var(--accent);
+  }
+
+  .project-link--ghost {
+    color: var(--text-dim);
+  }
+
+  /* About */
+  .about {
+    padding: 8rem 0;
+    border-top: 1px solid var(--border);
+  }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: 4rem;
+  }
+
+  .about-text p {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+  }
+
+  .about-text p:first-child::first-line {
+    color: var(--text);
+  }
+
+  .about-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .detail-block h4 {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+  }
+
+  .detail-block p,
+  .detail-block a {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .detail-block a:hover {
+    color: var(--accent);
+  }
+
+  /* Footer */
+  .footer {
+    border-top: 1px solid var(--border);
+    padding: 3rem 0;
+  }
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-text {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-dim);
+    letter-spacing: 0.04em;
+  }
+
+  .footer-text--dim {
+    font-style: italic;
+    font-family: var(--font-serif);
+    font-size: 0.8rem;
+  }
+
+  /* Animations */
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(24px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scrollPulse {
+    0%, 100% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav {
+      padding: 1.25rem 1.5rem;
+    }
+
+    .nav-links {
+      gap: 1.25rem;
+    }
+
+    .hero {
+      padding: 6rem 1.5rem 3rem;
+    }
+
+    .hero-content {
+      max-width: 100%;
+    }
+
+    .section-container {
+      padding: 0 1.5rem;
+    }
+
+    .about-grid {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+
+    .project-card {
+      padding: 1.75rem;
+    }
+
+    .footer-inner {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+  }
+</style>

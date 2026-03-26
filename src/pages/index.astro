@@ -74,6 +74,35 @@ import Layout from '../layouts/Layout.astro';
           </div>
         </article>
 
+        <!-- AFL -->
+        <article class="project-card">
+          <div class="project-header">
+            <span class="project-tag">Full-Stack · Aviation · WIP</span>
+            <span class="project-year">2026</span>
+          </div>
+          <h3 class="project-name">AFL — Airfield Ground Information <span class="project-wip">(in development)</span></h3>
+          <p class="project-desc">
+            Full-stack web app helping general aviation pilots in the Netherlands
+            find airfield ground information — landing fees, fuel prices, parking,
+            radio frequencies, procedures, and contact details — all in one place.
+            Covers 21 Dutch airfields with real, verified data from official
+            aeronautical sources via a custom multi-source scraper. Features an
+            interactive map, searchable directory, and fuel price comparison tool.
+          </p>
+          <div class="project-stack">
+            <span>React</span>
+            <span>Tailwind CSS</span>
+            <span>Leaflet.js</span>
+            <span>FastAPI</span>
+            <span>SQLAlchemy</span>
+            <span>PostgreSQL</span>
+            <span>Docker</span>
+          </div>
+          <div class="project-links">
+            <a href="https://afl.armandilas.com" target="_blank" rel="noopener" class="project-link">View Project →</a>
+          </div>
+        </article>
+
         <!-- Loopit -->
         <article class="project-card">
           <div class="project-header">
@@ -414,6 +443,13 @@ import Layout from '../layouts/Layout.astro';
     font-weight: 400;
     color: var(--text);
     margin-bottom: 1rem;
+  }
+
+  .project-wip {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent);
+    opacity: 0.8;
   }
 
   .project-desc {
